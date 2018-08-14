@@ -1,2 +1,2 @@
 # Maffengine
-Maffengine - a Processing Game Engine library
+Maffengine - a Processing Game Engine
