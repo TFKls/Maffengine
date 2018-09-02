@@ -58,8 +58,9 @@ public static class Helpers {
       }
       fileWriter = new FileWriter(filename, true);
       printWriter = new PrintWriter(new BufferedWriter(fileWriter));
+      text.replaceAll("\n", "\r");
       
-      printWriter.write(text); // TODO: fix the removing \n bug
+      printWriter.println(text);
       
       printWriter.close();
     } catch(IOException e){
